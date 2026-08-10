@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EASTEL | Ketahui Lebih Lanjut</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #07111f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .hero {
+      padding: 55px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #07111f, #0d2740);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 7px 14px;
+      margin-bottom: 20px;
+      border-radius: 30px;
+      background: #123b5c;
+      color: #7dd3fc;
+      font-size: 14px;
+    }
+
+    .hero h1 {
+      font-size: 34px;
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: #38bdf8;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      color: #cbd5e1;
+      font-size: 17px;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: auto;
+      padding: 25px 18px 60px;
+    }
+
+    .card {
+      background: #0e1c2d;
+      border: 1px solid #20364c;
+      border-radius: 18px;
+      padding: 25px;
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      margin-bottom: 12px;
+      color: #7dd3fc;
+    }
+
+    .card p {
+      color: #d6e0ea;
+    }
+
+    .benefit {
+      margin: 14px 0;
+      padding-left: 5px;
+      color: #e2e8f0;
+    }
+
+    .form-box {
+      background: #ffffff;
+      color: #111827;
+      border-radius: 20px;
+      padding: 25px;
+      margin-top: 25px;
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .form-box .intro {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 22px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 16px;
+      margin-bottom: 6px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      font-size: 16px;
+      background: white;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 24px;
+      padding: 16px;
+      border: none;
+      border-radius: 12px;
+      background: #16a34a;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    .small {
+      margin-top: 13px;
+      text-align: center;
+      color: #64748b;
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      color: #718096;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+
+    <div class="badge">
+      Penerangan Ringkas EASTEL
+    </div>
+
+    <h1>
+      Nak Faham Bagaimana
+      <span>EASTEL</span>
+      Berfungsi?
+    </h1>
+
+    <p>
+      Tak perlu pening cuba faham semuanya sendiri.
+      Tinggalkan maklumat anda dan saya akan bantu
+      terangkan dengan lebih mudah langkah demi langkah.
+    </p>
+
+  </section>
+
+
+  <main class="container">
+
+    <div class="card">
+
+      <h2>Kenapa halaman ini dibuat?</h2>
+
+      <p>
+        Ada perkara yang lebih mudah difahami apabila
+        diterangkan secara terus. Di sini anda boleh
+        tinggalkan maklumat untuk mendapatkan penerangan
+        lanjut mengenai EASTEL.
+      </p>
+
+    </div>
+
+
+    <div class="card">
+
+      <h2>Apa yang boleh ditanyakan?</h2>
+
+      <div class="benefit">
+        ✓ Penerangan mengenai EASTEL
+      </div>
+
+      <div class="benefit">
+        ✓ Maklumat simkad dan pelan
+      </div>
+
+      <div class="benefit">
+        ✓ Cara menggunakan aplikasi
+      </div>
+
+      <div class="benefit">
+        ✓ Cara pendaftaran
+      </div>
+
+      <div class="benefit">
+        ✓ Pertanyaan mengenai peluang yang tersedia
+      </div>
+
+    </div>
+
+
+    <div class="form-box">
+
+      <h2>Saya Nak Tahu Lebih Lanjut</h2>
+
+      <p class="intro">
+        Isi maklumat ringkas di bawah.
+      </p>
+
+
+      <form id="eastelForm">
+
+        <label for="nama">Nama</label>
+
+        <input
+          type="text"
+          id="nama"
+          placeholder="Contoh: Ahmad"
+          required
+        >
+
+
+        <label for="telefon">No. Telefon</label>
+
+        <input
+          type="tel"
+          id="telefon"
+          placeholder="Contoh: 0123456789"
+          required
+        >
+
+
+        <label for="minat">Saya ingin tahu tentang</label>
+
+        <select id="minat" required>
+
+          <option value="">
+            -- Pilih --
+          </option>
+
+          <option value="Penerangan EASTEL">
+            Penerangan EASTEL
+          </option>
+
+          <option value="Simkad dan pelan">
+            Simkad dan pelan
+          </option>
+
+          <option value="Cara menggunakan aplikasi">
+            Cara menggunakan aplikasi
+          </option>
+
+          <option value="Cara pendaftaran">
+            Cara pendaftaran
+          </option>
+
+          <option value="Peluang yang tersedia">
+            Peluang yang tersedia
+          </option>
+
+        </select>
+
+
+        <button type="submit">
+          Hantar Pertanyaan Melalui WhatsApp
+        </button>
+
+
+        <p class="small">
+          Selepas menekan butang, WhatsApp akan dibuka
+          dengan mesej yang telah disediakan.
+        </p>
+
+      </form>
+
+    </div>
+
+  </main>
+
+
+  <footer>
+    EASTEL • Halaman Maklumat & Pertanyaan
+  </footer>
+
+
+  <script>
+
+    document
+      .getElementById("eastelForm")
+      .addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        const nama =
+          document.getElementById("nama").value.trim();
+
+        const telefon =
+          document.getElementById("telefon").value.trim();
+
+        const minat =
+          document.getElementById("minat").value;
+
+
+        const mesej =
+`Assalamualaikum.
+
+Saya ingin mendapatkan penerangan lanjut mengenai EASTEL.
+
+Nama: ${nama}
+No. Telefon: ${telefon}
+Berminat tentang: ${minat}
+
+Boleh bantu terangkan kepada saya?`;
+
+
+        const nomborWhatsApp = "601176099144";
+
+        const pautan =
+          "https://wa.me/" +
+          nomborWhatsApp +
+          "?text=" +
+          encodeURIComponent(mesej);
+
+
+        window.location.href = pautan;
+
+      });
+
+  </script>
+
+</body>
+</html>
